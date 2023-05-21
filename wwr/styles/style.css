@@ -76,8 +76,6 @@ header {
         background-color:#156238 ;
 }
 
-
-
 .book, .join {
         font-family: 'Alice', 'Rock Salt', sans-serif;
         font-size: 18px;
@@ -92,7 +90,7 @@ header {
         background-color:#5DE851 ;
 }
 .card-img {
-    border: 10px solid #d9c2a3;
+    border: 10px solid #a58ff3;
 }
 main section img {
     box-sizing: border-box;
