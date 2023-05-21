@@ -14,7 +14,7 @@ h2 {
 #content {
     max-width: 1600px;
     margin: 0 auto;
-    background-color: #ffff;
+    
     
 }
 
@@ -41,7 +41,7 @@ nav a:hover {
     color: black;
 }
 .home-title {
-    font-family: 'Rock Salt', 'Alice', sans-serif;
+    font-family: 'Rock Salt', 'Arial', sans-serif;
     font-size: 2em;
     color: #156238;
     margin-top: 10px;
@@ -74,10 +74,11 @@ main section {
 }
 header {
         background-color:#156238 ;
+        font-family: "Alice", "arial", sans-serif;
 }
 
 .book, .join {
-        font-family: 'Alice', 'Rock Salt', sans-serif;
+        font-family: 'Alice', 'Arial', sans-serif;
         font-size: 18px;
         background-color:#77adf8;
         text-decoration: none;
@@ -113,7 +114,7 @@ main section img {
     
 }
 .msg p {
-    font-family: 'Alice', 'Rock Salt', sans-serif;
+    font-family: 'Alice', 'arial', sans-serif;
     font-size: .8em;
     color:#A3CEF1 ;
     padding-bottom: 15px;
