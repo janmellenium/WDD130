@@ -1,17 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Rock+Salt&display=swap');
 body {
+    background-color: #fcfbfb;
+    font-family: "Alice", "Rock Salt", sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
+}
+
+
+#content {
     max-width: 1600px;
     margin: 0 auto;
     background-color: #ffff;
+    
 }
 
 .logo {
     width: 80px;
 }
 
+#logo_link {
+    padding-top: 5px;
+}
+
+
+
 nav a {
   text-align:center;
   color: #77adf8;
   text-decoration: none;
+  padding: 35px;
+  
 }
 
 nav a:hover {
@@ -19,7 +41,10 @@ nav a:hover {
     color: black;
 }
 .home-title {
+    font-family: 'Rock Salt', 'Alice', sans-serif;
+    font-size: 2em;
     color: #156238;
+    margin-top: 10px;
  }
 
 #hero-image {
@@ -33,10 +58,12 @@ nav a:hover {
 }
 main section {
     text-align:center;
+
 }
 
 .icon {
     width: 80px;
+    padding-top: 10px;
 
 }
 
@@ -52,25 +79,52 @@ header {
 
 
 .book, .join {
+        font-family: 'Alice', 'Rock Salt', sans-serif;
+        font-size: 18px;
         background-color:#77adf8;
         text-decoration: none;
+        padding: 15px 30px; 
+        margin-top: 50px;
+        border-radius: 5px;
        
     }
 .book:hover, .join:hover{
         background-color:#5DE851 ;
 }
+.card-img {
+    border: 10px solid #d9c2a3;
+}
+main section img {
+    box-sizing: border-box;
+}
+
+.rivers-card, .camping-card, .rapids-card {
+    margin: 200px 0;
+}
+
 .msg {
         background-color:#156238 ;
+        line-height: 1.5em;
+        padding: 35px;
+
 }
 .msg h2 {
+    font-family: 'Rock Salt','Alice', sans-serif;
     color: #A3CEF1;
+    
+    
 }
 .msg p {
+    font-family: 'Alice', 'Rock Salt', sans-serif;
+    font-size: .8em;
     color:#A3CEF1 ;
+    padding-bottom: 15px;
 }
 footer {
         background-color:#3886cf ;
         color: black;
+        padding: 25px 50px;
+        margin-top: 200px;
     }
 footer a {
         color: rgb(245, 9, 205);
@@ -85,5 +139,9 @@ footer p {
 }
 footer p a:hover{
     text-decoration: underline;
+}
+
+footer .social img {
+    padding-top: 15px;
 }
 
